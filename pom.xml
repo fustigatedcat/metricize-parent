@@ -113,6 +113,11 @@
                 <artifactId>dispatch-core_${scala.maj.version}</artifactId>
                 <version>${dispatch.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.fustigatedcat.metricize.agent</groupId>
+                <artifactId>agent-interface</artifactId>
+                <version>${project.version}</version>
+            </dependency>
         </dependencies>
 
     </dependencyManagement>
