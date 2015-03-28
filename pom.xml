@@ -123,6 +123,11 @@
                 <artifactId>agent-interface</artifactId>
                 <version>${project.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.fustigatedcat.metricize.agent</groupId>
+                <artifactId>agent-mysql</artifactId>
+                <version>${project.version}</version>
+            </dependency>
         </dependencies>
 
     </dependencyManagement>
